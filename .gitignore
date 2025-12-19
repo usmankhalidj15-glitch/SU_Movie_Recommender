@@ -1,0 +1,27 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+artifacts/
+*/artifacts/
+*.pkl
+*.npy
+SIMILARITY_MATRIX
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+
+# Logs files and directories
+logs/
+*.log
